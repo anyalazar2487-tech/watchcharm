@@ -65,3 +65,57 @@ button {
   font-family: inherit;
   cursor: pointer;
 }
+
+.container {
+  max-width: 1180px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+
+
+
+.header {
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-nov-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-logo {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.header-nav-link {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #0c0c0c;
+}
+
+.header-social-list {
+  display: flex;
+  gap: 10px;
+}
+
+.box {
+  border: 1px solid rgba(12, 12, 12, 0.1);
+  border-radius: 10px;
+  padding: 8px;
+  width: 36px;
+  height: 36px;
+}
