@@ -76,8 +76,14 @@ button {
 
 
 
+
+
+
 .header {
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+  padding: 26px 0px 0px;
+  width: 1280px;
+  height: 88px;
 }
 
 .header-container {
@@ -118,4 +124,30 @@ button {
   padding: 8px;
   width: 36px;
   height: 36px;
+}
+
+
+
+
+
+.logo-hero {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 0.875;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.text-hero {
+  color: #3350e9;
+}
+
+.description-hero {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
 }
