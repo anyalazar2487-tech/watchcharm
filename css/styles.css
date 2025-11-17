@@ -176,17 +176,20 @@ button {
 
 
 
-
+.main-hero {
+  padding-top: 80px;
+}
 
 .wrapper-all {
   display: flex;
+  justify-content: space-between;
 }
 
 .logo-hero {
   font-family: "Gilroy", sans-serif;
   font-weight: 600;
   font-size: 72px;
-  line-height: 0.875;
+  line-height: 0.87;
   letter-spacing: -0.02em;
   color: #0c0c0c;
   max-width: 597px;
@@ -203,8 +206,15 @@ button {
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
   max-width: 597px;
+  margin-bottom: 40px;
 }
 
+.hero-people-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
 .scroll-down {
   font-weight: 500;
   font-size: 20px;
@@ -213,4 +223,40 @@ button {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #0c0c0c;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+.text-review {
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 0.91667;
+   letter-spacing: -0.02em;
+   color: #0c0c0c;
+}
+
+.review-name {
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 1.1;
+   letter-spacing: -0.02em;
+   text-align: center;
+   color: #0c0c0c;
+}
+
+.review-description {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.25;
+   letter-spacing: -0.02em;
+   text-align: center;
+   color: rgba(12, 12, 12, 0.4);
 }
