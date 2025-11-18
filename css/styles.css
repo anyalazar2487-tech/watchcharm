@@ -226,6 +226,10 @@ button {
   margin-bottom: 40px;
 }
 
+.scroll-down:hover,
+.scroll-down:focus {
+  color: #3350E9;
+}
 
 
 
@@ -233,7 +237,9 @@ button {
 
 
 
-.region about us 
+
+
+
 
 .about-us {
   padding-top: 100px;
@@ -279,11 +285,16 @@ button {
   font-family: "Gilroy", sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   text-align: center;
   color: #fbfbfb;
   border-radius: 16px;
   background-color: #3350e9;
+}
+
+.button-about-us:hover,
+.button-about-us:focus {
+   background-color:  #1F3CD4;
 }
 
 .wrapper-img-about {
@@ -304,7 +315,139 @@ button {
 
 
 
+
+
+
+
+
+
+
+
+.region catalog
+
+.main-catalog {
+  padding-top: 100px;
+}
+
+.catalog-conteiner {
+   display: flex;
+   flex-direction: column;
+}
+
+.text-catalog {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.description-catalog {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.cost-catalog {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.region advertis
+
+.text-advertis {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.91667;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.color-text-advertis {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.advertis-conteiner {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(7, 7, 7, 0.7)), url('../images/fone.png');
+    border-radius: 30px;
+    max-width: 1150px;
+    height: 298px;
+}
+
+.button-advertis {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.28571;
+   text-align: center;
+   color: #fbfbfb;
+   border: 1px solid rgba(251, 251, 251, 0.15);
+   border-radius: 16px;
+   width: 160px;
+   height: 48px;
+}
+
+
+
+
+
+
+
+
+.region sale
+
+.text-sale {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.91667;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .region review
+
+.review-people {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 
 .text-review {
    font-weight: 600;
@@ -312,6 +455,7 @@ button {
    line-height: 0.91667;
    letter-spacing: -0.02em;
    color: #0c0c0c;
+   margin-bottom: 40px;
 }
 
 .review-name {
@@ -321,6 +465,8 @@ button {
    letter-spacing: -0.02em;
    text-align: center;
    color: #0c0c0c;
+   margin-top: 24px;
+   margin-bottom: 8px;
 }
 
 .review-description {
@@ -330,4 +476,20 @@ button {
    letter-spacing: -0.02em;
    text-align: center;
    color: rgba(12, 12, 12, 0.4);
+}
+
+.review-item {
+  border-radius: 30px;
+  padding: 32px 36px;
+  background-color: #f3f3f3;
+  width: calc((100% - 40px) / 3);
+}
+
+.review-list {
+  display: flex;
+  gap: 20px;
+}
+
+.review-img {
+  margin: 0 auto;
 }
