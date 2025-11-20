@@ -264,47 +264,61 @@
       <!-- #endregion reviews-->
 
       <!-- #region contact-->
-      <section>
-        <h2>Contact Us</h2>
-        <div class="modal">
-        <p>Please use the form below to contact us. 
+      <section class="main-contact">
+        <div class="container">
+        <h2 class="text-contact">Contact Us</h2>
+        <div class="contact-us-main-wrapper">
+        <div class="contact-us-wrapper">
+        <p class="modal-text">Please use the form below to contact us. 
           Enter your name, email, phone, and message and we'll get 
           back to you shortly.</p>
-        <form  name="issue_report_form" autocomplete="off">
 
 
-        <label for="user-name">Name</label>
-         <input 
+        <form class="modal-form"  name="issue_report_form" autocomplete="off">
+
+
+        <label class="modal-form-label" for="user-name">
+         <input class="modal-form-input"
             type="text" 
             name="user-name" 
-            id="user-name">
+            id="user-name"
+            placeholder="Name">
+        </label>
 
-        <label for="user-email">Email</label>
-        <input  
+        <label class="modal-form-label" for="user-email">
+        <input  class="modal-form-input"
             type="email" 
             name="user-email" 
-            id="user-email">
+            id="user-emai"
+            placeholder="Email">
+        </label>
 
-        <label for="user-phone">+380</label>
-         <input 
+        <label class="modal-form-label" for="user-phone">
+         <input class="modal-form-input"
             type="tel" 
             name="user-phone"
-            id="user-phone">
+            id="user-phone"
+            placeholder="+380">
+        </label>
 
-        <label  for="user-comment">Comment</label>
-          <textarea 
+        <label class="modal-tex-label" for="user-comment">
+          <textarea class="modal-form-textarea"
+            name="user-comment"
             id="user-comment"
-            name="user-comment">
-          </textarea>
+            placeholder="Comment"></textarea>
+        </label>
 
-          <button class="form-botton" type="submit">Send</button>
+          <button class="form-botton-contact" type="submit">Send</button>
 
-          <img
+         </form>
+        </div>
+
+          <img 
           src="./images/modal-watch.png"
           alt="modal-watch"
           width="530" height="556"/>
-        </form>
         </div>
+      </div>
       </section>
 
       <!-- #endregion contact-->

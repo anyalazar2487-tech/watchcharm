@@ -292,6 +292,7 @@ button {
   color: #fbfbfb;
   border-radius: 16px;
   background-color: #3350e9;
+  border: none;
 }
 
 .button-about-us:hover,
@@ -530,4 +531,123 @@ button {
 
 .review-img {
   margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+.main-contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.text-contact {
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 0.92;
+   letter-spacing: -0.02em;
+   color: #0c0c0c;
+   margin-bottom: 40px;
+   padding-top: 100px;
+}
+
+.contact-us-wrapper {
+   border-radius: 50px;
+   width: 580px;
+   min-height: 556px;
+   background-color: #f3f3f3;
+   padding: 50px 60px;
+}
+
+.modal-text {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.25;
+   letter-spacing: -0.02em;
+   color: rgba(12, 12, 12, 0.7);
+   margin-bottom: 30px;
+}
+
+.modal-form-input::placeholder {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.25;
+   color: #0c0c0c;
+}
+
+
+.modal-form-label {
+   display: block;
+   margin-bottom: 18px;
+}
+
+.modal-form-input {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.25;
+   color: #0c0c0c;
+   border: 1px solid rgba(12, 12, 12, 0.15);
+   border-radius: 12px;
+   padding-left: 16px;
+   width: 100%;
+   height: 52px;
+   background-color: transparent;
+   outline: transparent;
+}
+
+.modal-form-textarea {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.25;
+   color: #0c0c0c;
+   border: 1px solid rgba(12, 12, 12, 0.15);
+   border-radius: 12px;
+   padding: 16px;
+   width: 100%;
+   height: 90px;
+   background-color: transparent;
+   outline: transparent;
+   resize: none;
+}
+
+.modal-form-textarea::placeholder {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.25;
+   color: #0c0c0c;
+}
+
+.form-botton-contact {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.29;
+   text-align: center;
+   color: #fbfbfb;
+   border-radius: 16px;
+   min-width: 160px;
+   height: 52px;
+   background-color: #3350e9;
+   border: none;
+}
+
+.form-botton-contact:hover,
+.form-botton-contact:focus {
+   background-color:  #1F3CD4;
+   transition: opacity 250ms ease-in, transform 250ms ease-in;
+}
+
+.modal-tex-label {
+   display: block;
+   margin-bottom: 32px;
+}
+
+.contact-us-main-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
