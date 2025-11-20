@@ -266,6 +266,45 @@
       <!-- #region contact-->
       <section>
         <h2>Contact Us</h2>
+        <div class="modal">
+        <p>Please use the form below to contact us. 
+          Enter your name, email, phone, and message and we'll get 
+          back to you shortly.</p>
+        <form  name="issue_report_form" autocomplete="off">
+
+
+        <label for="user-name">Name</label>
+         <input 
+            type="text" 
+            name="user-name" 
+            id="user-name">
+
+        <label for="user-email">Email</label>
+        <input  
+            type="email" 
+            name="user-email" 
+            id="user-email">
+
+        <label for="user-phone">+380</label>
+         <input 
+            type="tel" 
+            name="user-phone"
+            id="user-phone">
+
+        <label  for="user-comment">Comment</label>
+          <textarea 
+            id="user-comment"
+            name="user-comment">
+          </textarea>
+
+          <button class="form-botton" type="submit">Send</button>
+
+          <img
+          src="./images/modal-watch.png"
+          alt="modal-watch"
+          width="530" height="556"/>
+        </form>
+        </div>
       </section>
 
       <!-- #endregion contact-->
