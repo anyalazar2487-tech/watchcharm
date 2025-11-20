@@ -78,7 +78,7 @@ button {
 
 
  
-
+.region header
 
 .header {
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
@@ -174,7 +174,7 @@ button {
 
 
 
-
+.region hero
 
 .main-hero {
   padding-top: 80px;
@@ -240,7 +240,7 @@ button {
 
 
 
-
+.region about
 
 .about-us {
   padding-top: 50px;
@@ -323,7 +323,7 @@ button {
 
 
 
-
+.region catalog
 
 .main-catalog {
   padding-top: 50px;
@@ -390,66 +390,67 @@ button {
 
 
 
+.region advertis
 
-
-
-.main-advertis {
-   padding-top: 50px;
-   padding-bottom: 50px;
+.advertis-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
+.main-advertis {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.advertis-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0c0c0c;
+  background-image:  url('../images/fone.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  width: 1150px;
+  min-height: 298px;
+  padding: 83px 80px; 
+}
+
+
 .text-advertis {
-  font-family: "Gilroy", sans-serif;
+  max-width: 750px;
   font-weight: 600;
   font-size: 48px;
-  line-height: 0.92;
+  line-height: 0.9;
   letter-spacing: -0.02em;
   color: #fbfbfb;
-  margin-left: 80px;
-  margin-top: 83px;
-  margin-bottom: 83px;
-  margin-right: 180px;
 }
 
 .color-text-advertis {
   color: rgba(251, 251, 251, 0.5);
 }
 
-.advertis-conteiner {
-    background-image:  url('../images/fone.png'), url('../images/dark-fone.png');
-    border-radius: 30px;
-    max-width: 1150px;
-    height: 298px;
-    color: #fbfbfb;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+.advertis-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  text-align: center;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
 }
 
-.button-advertis {
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 1.29;
-   text-align: center;
-   color: #fbfbfb;
-   border: 1px solid rgba(251, 251, 251, 0.15);
-   border-radius: 16px;
-   width: 160px;
-   height: 48px;
-   background-color: transparent;
-   margin-right: 80px;
-   margin-bottom: 110px;
-   
-}
-
-.button-advertis:hover,
-.button-advertis:focus {
-  background-color: #FBFBFB;
-  color: #0C0C0C;
+.advertis-link:hover,
+.advertis-link:focus {
+  background-color:  #fbfbfb;
+  color: #0c0c0c;
   transition: opacity 250ms ease-in, transform 250ms ease-in;
-}
-
+} 
 
 
 
@@ -539,7 +540,7 @@ button {
 
 
 
-
+.region contact
 
 .main-contact {
   padding-top: 50px;
