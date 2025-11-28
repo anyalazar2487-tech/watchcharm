@@ -78,7 +78,7 @@ button {
 
 
  
-.region header
+/*region header*/
 
 .header {
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
@@ -174,7 +174,7 @@ button {
 
 
 
-.region hero
+/*region hero*/
 
 .main-hero {
   padding-top: 80px;
@@ -240,18 +240,13 @@ button {
 
 
 
-.region about
+/*region about us*/
 
 .about-us {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.about-us-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 .text-about-us {
    font-family: "Gilroy", sans-serif;
    font-weight: 600;
@@ -301,17 +296,17 @@ button {
    transition: opacity 250ms ease-in, transform 250ms ease-in;
 }
 
-.wrapper-img-about {
-   padding-top: 100px;
-}
-
 .wrapper-all-about {
-   max-width: 580px;
-   height: 532px;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-wrapper {
+  border-radius: 50px;
+  width: 580px;
+  min-height: 532px;
+  background-color: #f3f3f3;
+  padding: 80px 60px;
 }
 
 
@@ -321,9 +316,7 @@ button {
 
 
 
-
-
-.region catalog
+/*region catalog*/
 
 .main-catalog {
   padding-top: 50px;
@@ -390,7 +383,7 @@ button {
 
 
 
-.region advertis
+/*region advertis*/
 
 .advertis-container {
   padding-top: 50px;
@@ -458,7 +451,24 @@ button {
 
 
 
-.region sale
+/*region sale*/
+
+.sale-wrapper {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  padding: 40px 0;
+}
+
+
+.sale-watch {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
 .text-sale {
   font-family: "Gilroy", sans-serif;
@@ -469,6 +479,177 @@ button {
   color: #0c0c0c;
 }
 
+.main-sale {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sale-img {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 20px;
+  width: 132px;
+  min-height: 132px;
+  background-color: #f3f3f3;
+  padding: 16px 18px ;
+}
+
+
+.big-sale-watch {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 50px;
+  object-fit: contain;
+  background-color: #f3f3f3;
+  padding: 80px 50px;
+  width: 428px;
+  height: 558px;
+}
+
+
+.bly-wrapper {
+  border-radius: 50px;
+  background-color: #3350e9;
+  padding: 60px 80px;
+  width: 530px;
+  height: 558px;
+}
+
+.big-bly-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.125;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  text-align: start;
+}
+
+.small-bly-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+  text-align: left;
+  margin-top: 10px;
+}
+
+.price-row {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.cost-text {
+  border-radius: 8px;
+  width: 78px;
+  height: 32px;
+  background-color:  rgba(251, 251, 251, 0.1);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  padding: 8px 12px;
+}
+
+.line-cost-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.description-cost-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
+  margin-top: 30px;
+}
+
+.list-text-cost-one {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 145px;
+  height: 34px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #fbfbfb;
+}
+
+.list-text-cost-two {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 139px;
+  height: 34px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #fbfbfb;
+}
+
+.list-text-cost-tree {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 70px;
+  height: 34px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #fbfbfb;
+}
+
+.list-text-cost-four {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 64px;
+  height: 34px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #fbfbfb;
+}
+
+.list-text-cost-five {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 105px;
+  height: 34px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #fbfbfb;
+}
+
+.list-text-cost-six {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 95px;
+  height: 34px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #fbfbfb;
+}
+
+.list-cost {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+  margin-top: 40px;
+  list-style: none;
+}
 
 
 
@@ -476,12 +657,7 @@ button {
 
 
 
-
-
-
-
-
-.region review
+/*region review*/
 
 .review-people {
   padding-top: 50px;
@@ -540,7 +716,7 @@ button {
 
 
 
-.region contact
+/*region contact*/
 
 .main-contact {
   padding-top: 50px;
@@ -652,3 +828,7 @@ button {
   display: flex;
   justify-content: space-between;
 }
+
+
+/*region footer*/
+
